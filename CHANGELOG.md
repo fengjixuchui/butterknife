@@ -1,6 +1,22 @@
 Change Log
 ==========
 
+Version 10.2.3 *(2020-08-12)*
+-----------------------------
+
+Heads up: Development on this tool is winding down as [view binding](https://developer.android.com/topic/libraries/view-binding) is stable in AS/AGP 3.6+.
+
+ * Fix: Support receiving `MotionEvent` in an `@OnTouch` callback when using 'butterknife-reflect'.
+
+
+Version 10.2.2 *(2020-08-03)*
+-----------------------------
+
+Heads up: Development on this tool is winding down as [view binding](https://developer.android.com/topic/libraries/view-binding) is stable in AS/AGP 3.6+.
+
+ * Fix: Views detached while processing click callbacks will no longer disable future clicks on other views.
+
+
 Version 10.2.1 *(2019-12-19)*
 -----------------------------
 
